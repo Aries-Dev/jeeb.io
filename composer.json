@@ -1,0 +1,26 @@
+{
+    "name": "aries/jeeb.io",
+    "description": "jeeb.io cryptocurrency payment system wrapper",
+    "type": "library",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Mohammad Mohammadi",
+            "email": "imohammadd@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Aries\\Jeeb\\": "src"
+        }
+    },
+    "extra": {
+        "laravel" : {
+            "providers" : [
+                "Aries\\Jeeb\\JeebServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
