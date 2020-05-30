@@ -17,7 +17,7 @@ class Callback {
             ->where('token', $data['token'])
             ->firstOrFail();
         // check status from jeeb.io server
-        $status = Status::check($data['token']);
+        $status = Status::check($data['token'])->json();
 
         // get stateId from status
         $stateId = $status['result']['stateId'];
