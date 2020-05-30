@@ -1,6 +1,6 @@
 # Jeeb.io Laravel Gateway
 <div dir="rtl" align="right">
-پکیجی جهت استفاده از درگاه پرداخت رمزارزها توسط وبسایت [jeeb.io](https://jeeb.io)  
+پکیجی جهت استفاده از درگاه پرداخت رمزارزها توسط وبسایت <a href="https://jeeb.io">jeeb.io</a>
 </div>
 
 ## ملزومات
@@ -31,7 +31,7 @@
 
 ### ایجاد تراکنش
 <div dir="rtl">
-شما می‌تونید با استفاده از فساد Aries\Jeeb\Facades\Jeeb و متود pay یک ترانش جدید ایجاد کنید:
+شما می‌تونید با استفاده از فساد <code>Aries\Jeeb\Facades\Jeeb</code> و متود <code>pay</code> یک ترانش جدید ایجاد کنید:
 </div>
 
 ```php
