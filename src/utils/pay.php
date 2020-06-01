@@ -62,7 +62,7 @@ class Pay {
         ->callbackUrl($this->callback)
         ->language($this->language)
         ->init();
-
+        
         $transaction = JeebTransaction::create([
             'orderNo'           => $this->order,
             'stateId'           => 2,

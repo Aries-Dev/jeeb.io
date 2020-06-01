@@ -118,7 +118,6 @@ class Issue {
         $params['orderNo']      = $this->orderNo;
         $params['value']        = $this->value;
         $params['coins']        = $this->coins;
-        /*$this->callbackUrl != null ??*/ 
         if($this->callbackUrl != null) {
             $params['callbackUrl'] = $this->callbackUrl;
         }
@@ -128,9 +127,9 @@ class Issue {
         $params['allowTestNet'] = $this->allowTestNet;
         $params['language']     = $this->language;
 
-        // return $params;
 
         $result = Http::post($url, $params);
+
 
         if($result['status'] != 200) {
             throw new Exception($result['errorMessage']);
